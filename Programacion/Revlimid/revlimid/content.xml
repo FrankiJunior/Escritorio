@@ -1,0 +1,20 @@
+  <?php version="1.0" encoding="UTF-8"?> 
+  <entries>
+  <entry rep="/" type="active" url="indexh.html">1.index</entry>
+  <entry rep="/" type="active" url="indexh.html">1.1.ref_pag1</entry> 
+  <entry rep="/" type="active" url="slideh1.html">2.slide2</entry> 
+    <entry rep="/" type="active" url="ref_pag2h.html">2.1.ref_pag2</entry> 
+  <entry rep="/" type="active" url="slideh2.html">3.slide3</entry> 
+    <entry rep="/" type="active" url="ref_pag3h.html">3.1.ref_pag3</entry> 
+  <entry rep="/" type="active" url="slideh3.html">4.slide4</entry>
+  <entry rep="/" type="active" url="ref_pag4h.html">4.1.ref_pag4</entry> 
+  <entry rep="/" type="active" url="slideh4.html">5.slide5</entry> 
+  <entry rep="/" type="active" url="ref_pag5h.html">5.1.ref_pag5</entry>
+  <entry rep="/" type="active" url="slideh5.html">6.slide6</entry>
+  <entry rep="/" type="active" url="slideh5.html">6.1.slide7</entry> 
+  <entry rep="/" type="active" url="ref_pag6h.html">6.2.ref_pag6</entry>
+  <entry rep="/" type="active" url="slideh6.html">7.slide8</entry> 
+   <entry rep="/" type="active" url="ref_pag7h.html">7.1.ref_pag8</entry>
+  <entry rep="/" type="active" url="slideh7.html">8.slide9</entry> 
+   <entry rep="/" type="active" url="ref_pag8h.html">8.1.ref_pag9</entry>
+  </entries>

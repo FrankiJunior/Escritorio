@@ -1,0 +1,19 @@
+  <?php version="1.0" encoding="UTF-8"?> 
+  <entries>
+  <entry rep="/" type="active" url="index.html">1.index</entry> 
+  <entry rep="/" type="active" url="refpag1.html">1.1.refpag1</entry>
+  <entry rep="/" type="active" url="slide2.html">2.slide2</entry> 
+    <entry rep="/" type="active" url="refpag2.html">2.1.refpag2</entry> 
+  <entry rep="/" type="active" url="slide3.html">3.slide3</entry> 
+    <entry rep="/" type="active" url="refpag3.html">3.1.refpag3</entry> 
+  <entry rep="/" type="active" url="slide4.html">4.slide4</entry>
+  <entry rep="/" type="active" url="refpag4.html">4.1.refpag4</entry> 
+  <entry rep="/" type="active" url="slide5.html">5.slide5</entry> 
+  <entry rep="/" type="active" url="refpag5.html">5.1.refpag5</entry>
+  <entry rep="/" type="active" url="slide6.html">6.slide6</entry> 
+  <entry rep="/" type="active" url="refpag6.html">6.1.refpag6</entry>
+  <entry rep="/" type="active" url="slide7.html">7.slide7</entry> 
+   <entry rep="/" type="active" url="refpag7.html">7.1.refpag7</entry>
+  <entry rep="/" type="active" url="slide8.html">8.slide8</entry> 
+   <entry rep="/" type="active" url="refpag8.html">8.1.refpag8</entry>
+  </entries>

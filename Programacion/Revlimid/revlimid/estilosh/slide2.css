@@ -1,0 +1,446 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	height: auto;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.fondo {
+	display: grid;
+	grid-template-columns: repeat( 12, 1fr);
+	height: auto;
+	margin: 0;
+	padding: 0em;
+	box-sizing: border-box;	
+}
+
+.P1 {
+	width: 100%;
+	height: auto;
+	grid-column: 1/13;
+	padding-top: 0em;
+	color: white;
+	font-weight: bold;
+	font-size: 2.8vw;
+	line-height: 1;
+	background: rgb(0,178,227);
+	text-align: center;
+}
+
+.P2 {
+	grid-column: 2/12;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0.5em;
+	width: 100%;
+	margin-top: 0.5em;
+	font-weight: bold;
+	font-size:1.6vw;
+	color: black;
+}
+
+.listas {
+	padding-top: 0.5em;
+	grid-column: 1/13;
+	display: grid;
+	grid-template-columns: repeat( 12, 1fr);
+
+}
+
+.lista {
+	grid-column: 3/7;
+	width: 100%;
+}
+.lista2 {
+	grid-column: 7/12;
+	width: 82%;
+}
+
+ul {
+list-style: none; 
+padding: 0; 
+
+ list-style-position: outside;
+}
+
+li::before { 
+content: "\2022"; 
+padding-right: 8px; 
+color: rgb(0,178,227) ;
+
+}
+
+
+.grafico {
+	grid-column: 3/12;
+	grid-row-start: 3;
+	grid-row-end:6; 
+}
+
+
+.grafico img {
+	width: 85%;
+	padding-top: 1em;
+	padding-left: 0em;
+	padding-bottom: 0.5em;
+}
+
+/* Triangulo y demás */
+
+
+.tri {
+	grid-column: 12/13;
+	padding-top:6em;
+	align-self: start;
+	grid-row-start: 3;
+
+}
+
+.triangulo {
+	width: 0;
+	height: 0;
+	border-left: 30px solid rgb(253,195,39);
+	border-bottom:  20px solid transparent;
+	border-top:20px solid transparent;
+
+
+	margin-left: 0.5em
+	margin-top: 0em;
+}
+
+.tria {
+	padding-top:6em;
+	align-self: start;
+	grid-row-start: 3;
+
+	grid-column: 1/2;
+
+}
+
+.trianguloa {
+	margin-left: 1.5em;
+	width: 0;
+	height: 0;
+	border-right:  30px solid rgb(253,195,39);
+	border-bottom:  20px solid transparent;
+	border-top:20px solid transparent;
+
+
+}
+
+.ref {
+	grid-column: 1/2;
+	grid-row-start: 5;
+	align-self: end;
+	position: relative;
+	text-align: center;
+}
+
+.ref img {
+	width: 35%;
+	padding: 1.5%;
+}
+
+@media only screen and (max-width: 1024px) and (orientation:landscape) {
+
+
+
+.triangulo {
+	width: 0;
+	height: 0;
+
+
+
+	margin-left: 0.5em
+	margin-top: 0em;
+}
+
+
+
+.trianguloa {
+	margin-left: 1.5em;
+	width: 0;
+	height: 0;
+
+
+
+}
+
+}
+
+
+@media only screen and (max-width: 1024px) and (orientation:portrait) {
+
+
+.P1 {
+
+	width: 100%;
+	height: auto;
+	grid-column: 1/13;
+	padding-top: 0.1em;
+	color: white;
+	font-weight: bold;
+	
+	font-size: 3.7vw;
+	line-height: 1;
+	background: rgb(0,178,227);
+
+	text-align: center;
+
+}
+
+.P2 {
+	grid-column: 2/12;
+	text-align: center;
+	margin-top: 0;
+	margin: auto;
+
+	width: 100%;
+
+	margin-top: 0.25em;
+	font-weight: bold;
+	font-size:3.2vw;
+}
+
+
+li {
+	font-size: 2.6vw;
+}
+
+.grafico {
+	grid-column: 2/12;
+}
+
+.grafico img {
+	width: 98%;
+	padding-left: 0em;
+	padding-bottom: 0.5em;
+}
+
+.lista {
+	grid-column:2/7; 
+}
+.lista2 {
+	grid-column: 7/13;
+}
+
+.tri {
+	grid-column: 4/5;
+	justify-content:center;
+	align-self: end;
+	grid-row-start: 6;
+  	grid-row-end: 6;
+  	padding-top: 0.5;
+  	padding-top: 1em;
+}
+
+.triangulo {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right:  25px solid transparent;
+	border-top:35px solid #FFD100;
+	
+}
+
+
+
+.tria {
+	grid-column:2/3;
+	padding-top: 0;
+	align-self: center;
+	grid-row-start: 6;
+  	grid-row-end: 6;
+  	padding-top: 0;
+}
+
+.trianguloa {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right:  25px solid transparent;
+	border-bottom:35px solid #FFD100;
+	margin-left: 0;
+	margin-top: 0;
+}
+
+
+
+.ref {
+	grid-column: 6/13;
+	grid-row-start: 6;
+}
+
+.ref img {
+	width: 30%;
+	margin:0.4em;
+}
+}
+
+@media only screen and (max-width: 850px) and (orientation:landscape) {
+
+.P2 {
+	font-size: 2vw;
+	margin-top: 0.25em;
+}
+
+.grafico img {
+	padding-left: 2.5em;
+}
+
+
+.triangulo {
+	width: 0;
+	height: 0;
+	border-left: 25px solid rgb(253,195,39);
+	border-bottom:  15px solid transparent;
+	border-top:15px solid transparent;
+
+
+	margin-left: 0.5em
+	margin-top: 0em;
+}
+
+
+
+.trianguloa {
+	margin-left: 1.5em;
+	width: 0;
+	height: 0;
+	border-right:  25px solid rgb(253,195,39);
+	border-bottom:  15px solid transparent;
+	border-top:15px solid transparent;
+
+
+}
+
+
+}
+@media only screen and (max-width: 768px) and (orientation:portrait) {
+
+
+
+.P2 {
+	grid-column: 2/12;
+	text-align: center;
+	margin-top: 0;
+	margin: auto;
+
+	width: 100%;
+
+	margin-top: 0.5em;
+	font-weight: bold;
+	font-size:3.2vw;
+}
+
+
+li {
+	font-size: 2.6vw;
+}
+
+
+
+
+}
+
+@media only screen and (max-width: 750px) and (orientation:landscape) {
+
+
+.P2 {
+	font-size: 2.4vw;
+	margin-top: 0.25em;
+}
+
+
+
+.triangulo {
+	width: 0;
+	height: 0;
+	border-left: 25px solid rgb(253,195,39);
+	border-bottom:  15px solid transparent;
+	border-top:15px solid transparent;
+
+
+	margin-left: 0.5em
+	margin-top: 0em;
+}
+
+
+
+.trianguloa {
+	margin-left: 1.5em;
+	width: 0;
+	height: 0;
+	border-right:  25px solid rgb(253,195,39);
+	border-bottom:  15px solid transparent;
+	border-top:15px solid transparent;
+
+
+}
+
+
+}
+
+@media only screen and (max-width: 670px) and (orientation:landscape) {
+
+
+
+.P2 {
+	font-size: 2.5vw;
+	margin-top: 0.25em;
+}
+}
+
+
+
+@media only screen and (max-width: 420px) and (orientation:portrait) {
+
+
+
+.P2 {
+	grid-column: 2/12;
+	text-align: center;
+	margin-top: 0;
+	margin: auto;
+
+	width: 100%;
+
+	margin-top: 0.5em;
+
+	font-size:3.5vw;
+}
+
+li {
+	font-size: 3vw;
+}
+
+
+.triangulo {
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right:  20px solid transparent;
+	border-top:30px solid #FFD100;
+	
+}
+
+
+
+.trianguloa {
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right:  20px solid transparent;
+	border-bottom:30px solid #FFD100;
+
+}
+.ref img {
+	width: 25%;
+	margin:0.4em;
+}
+.ref, .tri, .tria {
+	padding-top: 3em;
+}
+}

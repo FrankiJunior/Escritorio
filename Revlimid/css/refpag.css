@@ -36,11 +36,12 @@
 
 hr {
 	grid-column: 1/13;
-	background: yellow;
+	background: salmon;
 	height: 1vh;
 	border-color: transparent;
 	align-self: center;
 	margin-top: 6em;
+	opacity: 0.2;
 
 }
 

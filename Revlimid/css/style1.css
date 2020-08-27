@@ -1,0 +1,399 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	height: auto;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.fondo {
+	display: grid;
+	grid-template-columns: repeat( 12, 1fr);
+	height: auto;
+	margin: 0;
+	padding: 0em;
+	box-sizing: border-box;	
+}
+
+header {
+    grid-column: 1/13;
+    margin: auto;
+    height: auto;
+}
+
+.picture {
+    grid-column: 1/13;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  
+    
+}
+.picture img {
+    width: 100%;
+}
+
+.grafico {
+	grid-column: 3/12;
+	grid-row-start: 3;
+}
+
+
+.grafico img {
+	width: 85%;
+	padding-top: 1em;
+	padding-left: 0em;
+	padding-bottom: 0.5em;
+}
+
+/* Triangulo y demás */
+
+
+.tri {
+	grid-column: 12/13;
+
+	align-self: center;
+	grid-row-start: 3;
+
+}
+
+.triangulo {
+	width: 0;
+	height: 0;
+	border-left: 30px solid rgb(253,195,39);
+	border-bottom:  20px solid transparent;
+	border-top:20px solid transparent;
+	margin-left: 0.5em
+}
+
+.tria {
+
+	align-self: center;
+	grid-row-start: 3;
+
+	grid-column: 1/2;
+
+}
+
+.trianguloa {
+	margin-left: 1.5em;
+	width: 0;
+	height: 0;
+	border-right:  30px solid rgb(253,195,39);
+	border-bottom:  20px solid transparent;
+	border-top:20px solid transparent;
+
+
+}
+
+.ref {
+	grid-column: 1/3;
+	grid-row-start: 6;
+	align-self: end;
+	position: relative;
+	text-align: center;
+}
+
+.ref img {
+	width: 20%;
+	padding: 1.5%;
+}
+.objetivos {
+    grid-column:2/13;
+    margin: auto;
+    grid-row-start: 5;
+    padding-left: 4em;
+}
+.objetivos img {
+    width: 55%;
+    
+}
+
+.texto-foot {
+    grid-column: 4/12;
+	grid-row-start: 6;
+	padding-top: 1em;
+}
+
+mark {
+    background: none;
+    color: blue;
+}
+@media only screen and (max-width: 1024px) and (orientation:landscape) {
+
+
+
+.triangulo {
+	width: 0;
+	height: 0;
+	margin-left: 0.5em
+}
+
+
+
+.trianguloa {
+	margin-left: 1.5em;
+	width: 0;
+	height: 0;
+
+}
+}
+
+
+@media only screen and (max-width: 1024px) and (orientation:portrait) {
+
+
+header {
+	margin: 0;
+	grid-column:2/12;
+}
+
+header img {
+	max-width: 100%;
+}
+
+
+.grafico {
+	grid-column: 2/12;
+}
+
+.grafico img {
+	width: 98%;
+	padding-left: 0em;
+	padding-bottom: 0.5em;
+}
+.objetivos {
+    grid-column:3/13;
+    margin: auto;
+    grid-row-start: 4;
+    padding-left: 4em;
+}
+.texto-foot {
+    grid-column: 2/12;
+	grid-row-start: 5;
+	padding-top: 1em;
+	font-size: 2.5rem;
+	margin-bottom: 0.5rem;
+}
+
+
+.tri {
+	grid-column: 4/5;
+	justify-content:center;
+	align-self: center;
+	grid-row-start: 6;
+  	grid-row-end: 6;
+  	padding-top: 0.5;
+  	padding-top: 1em;
+}
+
+.triangulo {
+	width: 0;
+	height: 0;
+	border-left: 45px solid transparent;
+	border-right:  45px solid transparent;
+	border-top:55px solid #FFD100;
+	margin-left: 0;
+	
+}
+
+
+
+.tria {
+	grid-column:2/3;
+	padding-top: 0;
+	align-self: center;
+	grid-row-start: 6;
+  	grid-row-end: 6;
+  	padding-top: 0;
+}
+
+.trianguloa {
+	width: 0;
+	height: 0;
+	border-left: 45px solid transparent;
+	border-right:  45px solid transparent;
+	border-bottom:55px solid #FFD100;
+	margin-left: 0;
+}
+
+
+
+.ref {
+	grid-column: 6/13;
+	grid-row-start: 6;
+}
+
+.ref img {
+	width: 17%;
+	margin:0.4em;
+}
+}
+
+@media only screen and (max-width: 850px) and (orientation:landscape) {
+
+header {
+    margin: 0;
+}
+header img {
+    width: 90%;
+    padding-left: 3em;
+}
+
+
+.grafico img {
+	padding-left: 0em;
+}
+
+
+.triangulo {
+	width: 0;
+	height: 0;
+	border-left: 25px solid rgb(253,195,39);
+	border-bottom:  15px solid transparent;
+	border-top:15px solid transparent;
+
+
+	margin-left: 0.5em
+}
+
+
+
+.trianguloa {
+	margin-left: 1.5em;
+	width: 0;
+	height: 0;
+	border-right:  25px solid rgb(253,195,39);
+	border-bottom:  15px solid transparent;
+	border-top:15px solid transparent;
+
+
+}
+}
+
+@media only screen and (max-width: 768px) and (orientation:portrait) {
+
+
+
+	.texto-foot {
+		grid-column: 2/12;
+		grid-row-start: 5;
+		padding-top: 1em;
+		font-size: 2rem;
+		margin-bottom: 0.5rem;
+	}
+	
+	
+	.tri {
+		grid-column: 4/5;
+		justify-content:center;
+		align-self: center;
+		grid-row-start: 6;
+		  grid-row-end: 6;
+	}
+	
+	.triangulo {
+		width: 0;
+		height: 0;
+		border-left: 40px solid transparent;
+		border-right:  40px solid transparent;
+		border-top:50px solid #FFD100;
+		
+	}
+	
+	
+	
+	.tria {
+		grid-column:2/3;
+		align-self: center;
+		grid-row-start: 6;
+		grid-row-end: 6;
+	}
+	
+	.trianguloa {
+		width: 0;
+		height: 0;
+		border-left: 40px solid transparent;
+		border-right:  40px solid transparent;
+		border-bottom:50px solid #FFD100;
+	}
+	
+
+
+
+}
+
+@media only screen and (max-width: 750px) and (orientation:landscape) {
+
+
+
+
+.triangulo {
+	border-left: 25px solid rgb(253,195,39);
+	border-bottom:  15px solid transparent;
+	border-top:15px solid transparent;
+    margin-left: 0.5em
+}
+
+
+
+.trianguloa {
+	margin-left: 1.5em;
+	width: 0;
+	height: 0;
+	border-right:  25px solid rgb(253,195,39);
+	border-bottom:  15px solid transparent;
+	border-top:15px solid transparent;
+
+
+}
+
+
+}
+
+@media only screen and (max-width: 420px) and (orientation:portrait) {
+
+	.objetivos {
+		grid-column:3/13;
+		margin: auto;
+		grid-row-start: 4;
+		padding-left: 3em;
+		padding-top: 1em;
+	}
+
+	.texto-foot {
+		grid-column: 2/12;
+		grid-row-start: 5;
+		padding-top: 2em;
+		font-size: 1rem;
+		margin-bottom: 0.5rem;
+		
+	}
+
+
+.triangulo {
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right:  20px solid transparent;
+	border-top:30px solid #FFD100;
+	
+}
+
+.tri {
+	align-self: end;
+}
+
+
+.trianguloa {
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right:  20px solid transparent;
+	border-bottom:30px solid #FFD100;
+
+}
+
+
+}
+

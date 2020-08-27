@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+}
+
+h1 {
+    text-align: center;
+    background-color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 0.5em;
+}
+h2 {
+    text-align: center;
+    background-color: aquamarine;
+    padding-bottom:0.25em;
+}
+
+main {
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section {
+    margin: auto;
+    
+}
+article {
+    width: 25%;
+    background-color:springgreen;
+    height: auto;
+    display: inline-block;
+    margin: 3rem;
+}
+aside {
+    margin: auto;
+}
+
+footer {
+    margin: auto;
+    padding-top: 1em;
+}
+
+aside > div {
+    display: none;
+}
+
+aside >div:first-child{
+    display: block;
+}
+
+aside > div:hover + div {
+    display: block;
+    background: chocolate;
+    transition: margin-left 4s ease-in-out 1s;
+}

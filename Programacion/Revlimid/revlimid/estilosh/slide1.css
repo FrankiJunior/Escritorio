@@ -1,0 +1,303 @@
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+
+
+}
+
+.fondo {
+	display: grid;
+	background-image: url('../slide1/portada-2.png');
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	grid-template-columns: repeat( 12, 1fr);
+
+
+}
+
+
+.letras {
+	grid-column-start: 2;
+  	grid-column-end: 12;
+	padding-top: 2em;
+	width: 100%;
+	text-align: center;
+	margin: 0;
+
+}
+
+.titulo {
+	
+	width: 100%;
+	color: #FFD100;
+	font-size:2.4vw;
+	text-align: center;
+	font-weight: bold;
+	line-height: 1.3em;
+}
+
+
+.subtitulo {
+	padding-top: 0.5em;
+	color: white;
+
+	font-size: 1.7vw;
+}
+
+
+
+
+
+
+
+.tri {
+	grid-column: 12/13;
+	justify-content:center;
+	align-self: end;
+	height: auto;
+	width: auto;
+}
+
+.triangulo {
+	width: 0;
+	height: 0;
+	border-left: 30px solid #FFD100;
+	border-bottom:  20px solid transparent;
+	border-top:20px solid transparent;
+	display: flex;
+	
+
+	margin-right: 0em
+
+}
+
+
+
+
+.logo-tecnofarma {
+	grid-column: 2/4;
+	margin: 0em;
+
+	align-self: end;
+	padding-bottom: 0em;
+
+}
+
+.logo-tecnofarma img {
+	width: 80%;
+	padding-bottom: 2em;
+
+}
+
+.ref {
+	grid-column: 12/13;
+	align-self: end;
+
+}
+.ref img {
+	padding-bottom: 2em;
+}
+.img2 {
+	width: 20%;
+}
+
+
+.img3 {
+	width: 20%;
+}
+
+
+
+@media only screen and (max-width: 1024px) and (orientation:portrait) {
+
+
+.fondo {
+	display: grid;
+	background-image: url('../slide1/portada-1.png');
+
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	grid-template-columns: repeat( 12, 1fr);
+
+
+
+}
+
+
+
+.titulo {
+
+	width: 100%;
+	color: #FFD100;
+	font-size:3.3vw;
+	text-align: center;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+
+
+
+.subtitulo {
+	padding-top: 0.5em;
+	color: white;
+
+	font-size: 2.9vw;
+}
+.logo-tecnofarma {
+	grid-column: 2/5;
+	margin: 0em;
+
+	align-self: end;
+	padding-bottom: 0em;
+
+}
+
+
+.logo-tecnofarma img {
+	width: 95%;
+
+}
+
+
+
+
+.tri {
+	grid-column: 6/8;
+	justify-content:center;
+	align-self: end;
+	grid-row-start: 2;
+	padding-left: 5em;
+
+}
+
+.triangulo {
+	width: 0;
+	height: 0;
+	border-left: 40px solid transparent;
+	border-right:  40px solid transparent;
+	border-top:50px solid #FFD100;
+
+
+	margin-left: 0em;
+	margin-top: 0em;
+}
+.ref {
+	grid-column: 11/13;
+	align-self: end;
+
+}
+.ref img {
+	padding-bottom: 2em;
+}
+.img2 {
+	width: 30%;
+}
+
+
+.img3 {
+	width: 30%;
+}
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) and (orientation:portrait) {
+
+
+.fondo {
+	display: grid;
+	background-image: url('../slide1/portada-1.png');
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	grid-template-columns: repeat( 12, 1fr);
+
+	justify-content: end;
+
+}
+
+
+
+
+
+.tri {
+	grid-column: 6/7;
+	padding-left: 5em;
+
+	align-self: end;
+
+}
+
+.triangulo {
+	width: 0;
+	height: 0;
+	border-left: 35px solid transparent;
+	border-right:  35px solid transparent;
+	border-top:45px solid #FFD100;
+
+
+	margin-left: 0.5em;
+	margin-top: 0em;
+}
+
+
+
+}
+
+
+@media only screen and (max-width: 420px) and (orientation:portrait) {
+
+
+	.tri {
+		padding-left: 2em;
+	}
+
+
+.triangulo {
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right:  20px solid transparent;
+	border-top:25px solid #FFD100;
+}
+
+}
+
+.ref {
+	grid-column: 11/13;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
