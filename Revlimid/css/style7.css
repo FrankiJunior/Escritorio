@@ -21,7 +21,9 @@
 header {
     grid-column: 1/13;
     margin: auto;
-    height: auto;
+	height: auto;
+	animation: fadeIn;
+	animation-duration: 2.5s;
 }
 
 .picture {
@@ -41,7 +43,9 @@ header {
 
 .grafico {
     grid-column: 3/12;
-    margin-top: 0.5em;
+	margin-top: 0.5em;
+	animation: fadeIn;
+	animation-duration: 2.5s;
 }
 
 

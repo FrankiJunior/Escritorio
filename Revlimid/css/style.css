@@ -28,9 +28,8 @@
 	color:rgb(0,178,227);
 	font-size: 2.8vw;
 	font-weight: normal;
-	animation: rubberBand;
-  	animation-duration: 1.5s;
-	
+	animation: fadeIn;
+	animation-duration: 2.5s;
 }
 .letras img {
 	height: 25vh;

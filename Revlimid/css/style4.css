@@ -21,7 +21,9 @@
 header {
     grid-column: 1/13;
     margin: auto;
-    height: auto;
+	height: auto;
+	animation: fadeIn;
+	animation-duration: 2.5s;
 }
 
 .picture {
@@ -57,6 +59,8 @@ h1 {
 
 .grafico {
 	grid-column: 2/12;
+	animation: fadeIn;
+	animation-duration: 2.5s;
 }
 
 

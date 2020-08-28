@@ -19,14 +19,16 @@
 header {
     grid-column: 1/13;
     margin: auto;
-    height: auto;
+	height: auto;
+	animation: fadeIn;
+	animation-duration: 2.5s;
 }
 
 .picture {
     grid-column: 1/13;
     padding-left: 0.5em;
     padding-right: 0.5em;
-  
+	
     
 }
 .picture img {
@@ -36,6 +38,8 @@ header {
 .grafico {
 	grid-column: 3/12;
 	grid-row-start: 3;
+	animation: fadeIn;
+	animation-duration: 2.5s;
 }
 
 
